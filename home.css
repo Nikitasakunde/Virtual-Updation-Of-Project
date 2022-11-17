@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(80, 175, 219);
+}
+header nav{
+    height: 78px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:75px;
+    padding: 0 25px;
+}
+
+header nav h5{
+    margin-top: -60px;
+    margin-left: 100px;
+    color: white;
+}
+header nav strong{
+    margin-left: 100px;
+    color: white;
+}
+
+header nav .container{
+    width: 38px;
+    height: 37px;
+    margin-left: 1253px;
+    margin-top: -34px;
+    border: 2px solid white;
+}
+
+header nav .container .m1{
+    width: 23px;
+    height: 3px;
+    color: white;
+    background-color: white;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+header nav .container .m2{
+    width: 23px;
+    height: 3px;
+    color: white;
+    background-color: white;
+    margin-left: 7px;
+    margin-top:7px;
+}
+
+header nav .container .m3{
+    width: 23px;
+    height: 3px;
+    color: white;
+    background-color: white;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+
+footer{
+    height: 45vh;
+    background-color: rgb(80, 175, 219);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.container1{
+        min-height: calc(100vh - 58px - 12vh);
+}
+
+main .container1 .slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    overflow:hidden;
+}
+main .container1 .slider img{
+    width: 1355px;
+}
+
+main .container2 .slider{
+    background-image: url();
+}
+
+main .container2 .slider h1{
+    text-align: center;
+    color: #7B2B00
+}
+
+main .container2 .cards{
+    margin-left: 64px;
+    height: 139px;
+}
+
+main .container2 .cards {
+    display: flex;
+    overflow: hidden;
+}
